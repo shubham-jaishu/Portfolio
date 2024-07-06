@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Responsive portfolio website - Bedimcode</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">Shubham</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+               <li>
+                  <a href="#work" class="nav__link">Work</a>
+               </li>
+               <li>
+                  <a href="#info" class="nav__link">My Info</a>
+               </li>
+               <li>
+                  <a href="#services" class="nav__link">Services</a>
+               </li>
+               <li>
+                  <a href="#contact" class="nav__link">Contact Me</a>
+               </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <img src="assets/img/fir.png" class="home__img" alt="">
+          
+            <div class="home__data">
+              <h1 class="home__name">Shubham <br> Kumar</h1>
+              <h3 class="home__profession">
+                <span class="typed-out">Web Developer</span>
+                <span class="typed-out hidden">Programmer</span>
+              </h3>
+            </div>
+          
+            <a href="#work" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-line"></i>
+              </div>
+              <span class="home__scroll-text">Recent Works</span>
+            </a>
+          </div>
+          
+      </section>
+
+      <!--==================== WORKS ====================-->
+      <section class="work section" id="work">
+         <h2 class="section__title">RECENT WORKS</h2>
+         <div class="work__container container grid">
+            <article class="work_card">
+               <a href="https://locomotive-gsap.netlify.app/" target="_blank" class="work__link">
+                  <h2 class="work__title">Scroll Space</h2>
+                  <p class="work__description">
+                     Integrated GSAP for animation and Locomotive JS for smooth scrolling to enhance user experience.
+                  </p>
+                  <img src="assets/img/loco.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work_card">
+               <a href="https://chat-app-e5so.onrender.com/" target="_blank" class="work__link">
+                  <h2 class="work__title">Chat App</h2>
+                  <p class="work__description">
+                     Implemented real-time messaging using Socket.IO with proper user Authentication and Authorization.
+                  </p>
+                  <img src="assets/img/chat.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work_card">
+               <a href="https://boat-react-app.netlify.app/" target="_blank" class="work__link">
+                  <h2 class="work__title">Boat Website</h2>
+                  <p class="work__description">
+                     Perfectly cloned the landing page of Boat wesite showcasing a keen eye for detail.
+                  </p>
+                  <img src="assets/img/boat.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work_card">
+               <a href="https://text-to-speech-converter-app-project.netlify.app/" target="_blank" class="work__link">
+                  <h2 class="work__title">Text to Speech</h2>
+                  <p class="work__description">
+                     Used Web Speech API to convert text to audio in 100+ languages.
+                  </p>
+                  <img src="assets/img/speech.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work_card">
+               <a href="https://dark-mode-project-html-css-javascript.netlify.app/" target="_blank" class="work__link">
+                  <h2 class="work__title">Dark Mode</h2>
+                  <p class="work__description">
+                     Implemented dark mode on the website to reduce the strain on our eyes.
+                  </p>
+                  <img src="assets/img/dark.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work_card">
+               <a href="https://amazon-prime-videos-html-css.netlify.app/" target="_blank" class="work__link">
+                  <h2 class="work__title">Amazon Prime Videos</h2>
+                  <p class="work__description">
+                     Cloned the landing page of Amazon Prime with the hover effects on it.
+                  </p>
+                  <img src="assets/img/prime.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== INFO ====================-->
+      <section class="info section" id="info">
+         <h2 class="section__title">MY INFO</h2>
+
+         <div class="info__container container grid">
+            <div class="about grid">
+               <div class="about__content">
+                  <h3 class="info__title">About Me</h3>
+                  <p class="about__description">
+                     I am a Computer Science student at IIIT Bhagalpur with an 8.2/10 CGPA. I've built projects using
+                     MongoDB, Express, React, Node.js, and GSAP. Proficient in C, C++, and JavaScript, I excel in both
+                     frontend and backend development. I've also solved over 3000+ algorithmic problems on LeetCode,
+                     GeeksForGeeks, CodeChef, and Codeforces.
+                  </p>
+                  <a href="assets/pdf/shubham_kumar.pdf" download="" target="_blank"
+                     class="button about__button">Download CV</a>
+               </div>
+
+               <img src="assets/img/sec.png" alt="image" class="about__img">
+            </div>
+
+            <!-- <div class="experience">
+                  <h3 class="info__title">Experience</h3>
+
+                  <div class="experience__content grid">
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Discord</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Web Product Designer</h3>
+                           <span class="experience__date">06/24 - Present</span>
+                           <p class="experience__description">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolorum.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Google</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Web Developer</h3>
+                           <span class="experience__date">05/21 - 02/22</span>
+                           <p class="experience__description">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolorum.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Adobe</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Web Designer</h3>
+                           <span class="experience__date">05/21 - 02/22</span>
+                           <p class="experience__description">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolorum.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div> -->
+
+            <div class="skills">
+               <h3 class="info__title">Skills</h3>
+
+               <div class="skills__content grid">
+                  <div class="skills__box">
+                     <img src="assets/img/info-html.svg" alt="image" class="skills__img">
+                     <span class="skills__name">HTML</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-css.svg" alt="image" class="skills__img">
+                     <span class="skills__name">CSS</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-tailwind-css.svg" alt="image" class="skills__img">
+                     <span class="skills__name">Tailwind CSS</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/jscr.svg" alt="image" class="skills__img">
+                     <span class="skills__name">JavaScript</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/gsap-greensock.svg" alt="image" class="skills__img">
+                     <span class="skills__name">GSAP</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-react.svg" alt="image" class="skills__img">
+                     <span class="skills__name">React</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/mongo.svg" alt="image" class="skills__img">
+                     <span class="skills__name">Mongo DB</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/mysql-3.svg" alt="image" class="skills__img">
+                     <span class="skills__name">My SQL</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/visual-studio-code-1.svg" alt="image" class="skills__img">
+                     <span class="skills__name">VS Code</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-github.svg" alt="image" class="skills__img">
+                     <span class="skills__name">GitHub</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/c-1.svg" alt="image" class="skills__img">
+                     <span class="skills__name">C</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/c.svg" alt="image" class="skills__img">
+                     <span class="skills__name">C++</span>
+                  </div>
+
+                  <!-- <div class="skills__box">
+                        <img src="assets/img/bootstrap.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Bootstrap</span>
+                     </div> -->
+
+                  <!-- <div class="skills__box">
+                        <img src="assets/img/socket-io.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Socket IO</span>
+                     </div> -->
+
+                  <!-- <div class="skills__box">
+                        <img src="assets/img/postman.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Postman</span>
+                     </div> -->
+
+                  <!-- <div class="skills__box">
+                        <img src="assets/img/nodejs-1.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Node</span>
+                     </div> -->
+
+                  <!-- <div class="skills__box">
+                        <img src="assets/img/express-server.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Express</span>
+                     </div> -->
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+         <h2 class="section__title">SERVICES</h2>
+
+         <dev class="services__container container grid">
+            <article class="services__card">
+               <i class="ri-code-box-fill services__icon"></i>
+               <h3 class="services__title">Web Development</h3>
+               <p class="services__description">
+                  Full-stack development using MongoDB, Express, React.js, and Node.js (MERN stack). <br> <br>
+                  Frontend development with HTML, CSS, JavaScript, React, TailwindCSS, and Bootstrap.
+               </p>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-pencil-ruler-2-fill services__icon"></i>
+               <h3 class="services__title">Algorithmic Problem Solving</h3>
+               <p class="services__description">
+                  Proficient in solving complex algorithmic problems on platforms like LeetCode, GeeksForGeeks,
+                  CodeChef, and Codeforces. <br> <br>
+                  Providing insights and solutions for competitive programming challenges.
+               </p>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-star-smile-fill services__icon"></i>
+               <h3 class="services__title">Animation and Interactive UI</h3>
+               <p class="services__description">
+                  Creating interactive and animated web experiences with GSAP and LocomotiveScroll. <br> <br>
+                  Enhancing user engagement with smooth scrolling and stunning animations.
+               </p>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-function-add-fill services__icon"></i>
+               <h3 class="services__title">Real-time Applications</h3>
+               <p class="services__description">
+                  Building real-time chat applications with WebSockets and Socket.IO. <br> <br>
+                  Implementing user authentication and authorization for data security.
+               </p>
+            </article>
+         </dev>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">CONTACT ME</h2>
+
+         <div class="contact__container container grid">
+            <form action="" class="contact__form grid" id="contact-form">
+               <div class="contact__group grid">
+                  <input type="text" name="user_name" placeholder="Names" required class="contact__input">
+                  <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+               </div>
+
+               <textarea name="user_message" placeholder="Message" required
+                  class="contact__input contact__area"></textarea>
+               <button type="submit" class="button contact__button">Send Message</button>
+
+               <p class="contact__message" id="contact-message"></p>
+            </form>
+
+            <div class="contact__social grid">
+               <a href="https://www.facebook.com/profile.php?id=100005855805000" target="_blank"
+                  class="contact__social-link">
+                  <i class="ri-facebook-circle-line"></i>
+                  <span>Facebook</span>
+               </a>
+
+               <a href="https://www.instagram.com/shubham_jaishu/" target="_blank" class="contact__social-link">
+                  <i class="ri-instagram-line"></i>
+                  <span>Insta</span>
+               </a>
+
+               <a href="https://www.linkedin.com/in/shubham-jaiswal-004861214/" target="_blank"
+                  class="contact__social-link">
+                  <i class="ri-linkedin-box-line"></i>
+                  <span>Linkedin</span>
+               </a>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <ul class="footer__links">
+            <li class="footer__link">
+               <a href="#home" class="footer__link">Home</a>
+            </li>
+
+            <li class="footer__link">
+               <a href="#work" class="footer__link">Work</a>
+            </li>
+
+            <li class="footer__link">
+               <a href="#info" class="footer__link">Info</a>
+            </li>
+         </ul>
+
+         <span class="footer__copy">
+            &#169; 2024 Shubham Kumar. All Rights Reserved.
+         </span>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="/assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== EMAIL JS ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
